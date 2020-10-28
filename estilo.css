@@ -1,0 +1,121 @@
+/*FONTES*/
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    list-style: none;
+    padding: 8px;
+    font-weight: bold;
+}
+strike {
+    color: red;
+}
+p {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: black;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 25px;
+}
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 12px;
+}
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 15px;
+}
+h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    font-size: 20px;
+    text-align: center;
+
+}
+/*CABECALHO*/
+.cabecalho {
+    width: 100%; 
+    background-color: red;
+}
+.cabecalho a {
+    display: inline-block;
+    align-items: center;
+    line-height: 25px;
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.categorias {
+    text-align: left;
+    cursor: pointer;
+    position: static;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: left;
+    width: 20%;
+    height: 1200px;
+}
+main {
+    text-align: center;
+}
+/*PRODUTOS*/
+div {
+    width: 300px;
+    height: 10px;
+    border: 0px solid;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.produtos {
+    width: 100%;
+    height: 30vhx;
+}
+.subproduto {
+    width: 19%;
+    float: left;
+    height: 40vh;
+}
+/*LOJAS*/
+.lojas {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    align-items: center;
+}
+.loja {
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    padding: 80px;
+}
+/*CONTATOS*/
+.contatos {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.contato {
+    display: inline-block;
+    padding: 40px;
+}
+/*RODAPE*/
+footer {
+    clear: both;
+    border-top: 1px solid rgb(206, 198, 198);
+    text-align: center;
+    align-items: center;
+}
