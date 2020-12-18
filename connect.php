@@ -6,6 +6,6 @@ $database = "fseletro";
 
 $conn = mysqli_connect($servername, $username, $password, $database);
 if (!$conn) {
-    die("A conexão não deu ruim! " . mysqli_connect_error());
+    die("A conexão deu ruim! " . mysqli_connect_error());
 }
 ?>
